@@ -11,6 +11,9 @@ def home():
 def test():
     return "<p>Test Flask Server</p>"
 
+@app.route("/test2")
+def test2():
+    return "<p>Test Flask Server 2</p>"
 
 @app.route("/info")
 def info():
