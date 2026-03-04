@@ -16,7 +16,7 @@ def test2():
     return "<p>Test Flask Server 2</p>"
 
 @app.route("/test3")
-def test2():
+def test3():
     return "<p>Test Flask Server 3</p>"
 
 @app.route("/info")
